@@ -1,0 +1,8 @@
+1. Insert the start time timestamp for entry -> ajax call.
+2. Continue the tracker timer -> jQuery
+3. On stop
+    -> Check entry for the user
+    -> should have endtime timestamp null
+    -> for yes, enter the current time stamp
+    -> calculate the total time stamp
+    -> return the data
